@@ -1,0 +1,126 @@
+
+/*Base*/
+html{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background-color: #0E1821;
+}
+
+
+
+/*Table Styling*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #F2F4FF;
+}
+
+tbody tr:hover {
+      background-color: #F2F4FF;
+  }
+
+.table{
+  width: 100%;
+  max-width: 100%;
+  color: #0A1439;
+  background-color: #fff;
+}
+
+.th-bgc{
+    background-color: #F7D528;
+}
+
+
+/*Heplers*/
+.padding--top-20px{
+    padding-top: 20px;
+}
+
+.padded--horizontal{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.type--centered{
+    text-align: center;
+}
+
+.padded-horizontal--sm{
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.padded-horizontal--xs{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.padded-horizontal--md{
+  padding-right: 25px;
+  padding-left: 10px;
+}
+
+.padded-horizontal--xl{
+  padding-right: 55px;
+  padding-left: 25px;
+}
+
+.padded-horizontal--zero{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.padded-horizontal--left{
+  padding-left: 25px;
+}
+
+.padded-horizontal-left--sm{
+  padding-left: 5px;
+}
+
+.padded-vertical--zero{
+  padding-top: 0px;
+}
+
+.padded-horizontal--right{
+  padding-right: 25px;
+}
+
+.padded-vertical--space{
+  padding-bottom: 30px;
+}
+
+.padded-vertical-space--xl{
+  td{
+     padding-bottom: 65px;
+  }
+}
+
+.padded-vertical-space--md{
+  padding-bottom: 25px;
+}
+
+.padded-vertical-space--xs{
+  padding-bottom: 10px;
+}
+
+.padded-vertical-space--full{
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.padded-vertical--webkit{
+  padding-top: 5px;
+  -webkit-margin-after: 0em;
+}
+
+.padded-vertical-webkit-not{
+  -webkit-margin-after: 0em;
+}
+
+.list--unstyled {
+  padding-left: 0;
+  list-style: none;
+}
